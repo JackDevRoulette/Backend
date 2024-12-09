@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/main_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.link {
+  color: red;
+  font-size: 18px;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}

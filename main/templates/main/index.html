@@ -1,0 +1,23 @@
+{% load static %}
+
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'main/style.css' %}" />
+    <title>Accueil PizzaMama</title>
+  </head>
+  <body>
+    <main>
+      <div class="centered">
+        <img
+          src="{% static 'img/main_logo.png' %}"
+          alt="logo mama"
+          width="400"
+          height="100"
+        />
+        <a class="link" href=" {%url 'menu:index' %}">Voir les menus</a>
+      </div>
+    </main>
+  </body>
+</html>
